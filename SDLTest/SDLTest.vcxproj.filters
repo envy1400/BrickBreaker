@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker">
+      <UniqueIdentifier>{9a6773fb-fc29-42dc-8546-3e7a02e43665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Bricks">
+      <UniqueIdentifier>{e2c5c720-0386-4390-bbda-7da8d1e4902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Levels">
+      <UniqueIdentifier>{3ed59917-b76e-4b13-b274-8b28eceed64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Managers">
+      <UniqueIdentifier>{95f3eaee-bfb1-45f7-911f-5393bba9ecca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\App">
+      <UniqueIdentifier>{6df5a0e7-2581-41d4-9b77-3f504b79ea54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Timer">
+      <UniqueIdentifier>{40dc4503-572d-460c-88ea-f09ad30f6549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Managers\SoundManager">
+      <UniqueIdentifier>{710519d5-f068-4c40-bcbf-a213ac122dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Ball">
+      <UniqueIdentifier>{a2849160-9148-402d-9fab-1ef4ffd6fc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Paddle">
+      <UniqueIdentifier>{9ac73b78-fa26-48b0-a6f7-02f5c7394b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Managers\LevelManager">
+      <UniqueIdentifier>{f3ddc8c4-3a36-4ccc-8ed3-b5322c9677be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Physics">
+      <UniqueIdentifier>{fc132d6b-6f59-47ed-9375-32012b821a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Config">
+      <UniqueIdentifier>{dc31a409-657a-41c5-ae74-9b5a62590818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Graphics">
+      <UniqueIdentifier>{27963784-fb40-4ed3-a83a-08e7c3054768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Helpers">
+      <UniqueIdentifier>{6044cfef-d4bf-43b9-aef5-f8343079feb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick Breaker\Menus">
+      <UniqueIdentifier>{200964de-0b75-41df-95dc-c3cdb9f64d61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PaddleGameMain.cpp">
+      <Filter>Source Files\Brick Breaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Bricks\Brick.cpp">
+      <Filter>Source Files\Brick Breaker\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\App\MainMenu.cpp">
+      <Filter>Source Files\Brick Breaker\App</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Timer\LTimer.cpp">
+      <Filter>Source Files\Brick Breaker\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\App\PausedMenu.cpp">
+      <Filter>Source Files\Brick Breaker\App</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Managers\SoundManager\SoundManager.cpp">
+      <Filter>Source Files\Brick Breaker\Managers\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Ball\Ball.cpp">
+      <Filter>Source Files\Brick Breaker\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Paddle\Paddle.cpp">
+      <Filter>Source Files\Brick Breaker\Paddle</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Managers\LevelManager.cpp">
+      <Filter>Source Files\Brick Breaker\Managers\LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Levels\Level.cpp">
+      <Filter>Source Files\Brick Breaker\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Graphics\LTexture.cpp">
+      <Filter>Source Files\Brick Breaker\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Graphics\PG_Renderer.cpp">
+      <Filter>Source Files\Brick Breaker\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBreaker\Physics\CollisionChecker.cpp">
+      <Filter>Source Files\Brick Breaker\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrickBreaker\Bricks\Brick.h">
+      <Filter>Source Files\Brick Breaker\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Levels\LevelArrays.h">
+      <Filter>Source Files\Brick Breaker\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\App\MainMenu.h">
+      <Filter>Source Files\Brick Breaker\App</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Timer\LTimer.h">
+      <Filter>Source Files\Brick Breaker\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\App\PausedMenu.h">
+      <Filter>Source Files\Brick Breaker\App</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Managers\SoundManager\SoundManager.h">
+      <Filter>Source Files\Brick Breaker\Managers\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Ball\Ball.h">
+      <Filter>Source Files\Brick Breaker\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Paddle\Paddle.h">
+      <Filter>Source Files\Brick Breaker\Paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Managers\LevelManager.h">
+      <Filter>Source Files\Brick Breaker\Managers\LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Levels\Level.h">
+      <Filter>Source Files\Brick Breaker\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Graphics\LTexture.h">
+      <Filter>Source Files\Brick Breaker\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Graphics\PG_Renderer.h">
+      <Filter>Source Files\Brick Breaker\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Config\GameConfig.h">
+      <Filter>Source Files\Brick Breaker\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Config\SystemConfig.h">
+      <Filter>Source Files\Brick Breaker\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Physics\CollisionChecker.h">
+      <Filter>Source Files\Brick Breaker\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBreaker\Helpers\CallbackHelper.h">
+      <Filter>Source Files\Brick Breaker\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
