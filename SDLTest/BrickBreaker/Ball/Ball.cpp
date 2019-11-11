@@ -23,6 +23,8 @@ namespace BrickBreaker
 		//Initialize the velocity
 		mVelX = 3;
 		mVelY = 3;		
+
+		ID = 0;
 	}
 
 	void Dot::handleEvent(SDL_Event& e)
